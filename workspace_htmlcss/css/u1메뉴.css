@@ -1,0 +1,67 @@
+ul{
+  list-style-type: none;
+  margin: auto;
+}
+
+ul > li{
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  font-size: 14px;
+  /* border: 1px solid black; */
+}
+
+.content1{
+  background-image: url('화면구현_메인배경.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 88vh;
+}
+
+.STYLE{
+  font-weight: 900;
+}
+.style2{
+  font-weight: 100;
+}
+
+.title{
+  background-color: black;
+  height: 50px;
+  font-size: xx-large;
+  color: white;
+  padding: 5px;
+  padding-left: 200px;
+  width: 1710px;
+  margin: 0;
+}
+.title_{
+  width: 300px;
+  height: 35px;
+  padding-top: 13px;
+}
+.star1{
+  font-size: small;
+  /* vertical-align: ; */
+  padding-left: 600px;
+}
+.li1{
+  width: 135px;
+}
+.FONT{
+  color: blueviolet;
+}
+.font2{
+  color: green;
+}
+
+.menu-wrap{
+  width: 1200px; margin: auto;
+  text-align: center;
+}
+.menu{
+  display: inline-block;
+ 
+  /* float: left; text-align: center; */
+}

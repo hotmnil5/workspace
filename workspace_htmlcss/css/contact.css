@@ -1,0 +1,42 @@
+body{
+  background-color: lightpink;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+  width: 300px;
+  height: 70px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  transition: all 0.5s;
+}
+.contact:hover{
+  scale: 1.1;
+}
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid lightpink;
+}
+
+.name{
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: hotpink;
+}
+.email{
+  font-size: 0.9rem;
+  color: pink;
+}

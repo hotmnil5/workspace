@@ -1,0 +1,50 @@
+table{
+  width: 830px;
+  margin: auto;
+}
+
+td{
+  padding: 6px;
+}
+
+.t0{
+  text-align: center;
+  background-color: lightpink;
+  font-size: large;
+}
+
+.i1{
+  color: red;
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+.t1{
+  width: 500px;
+  text-align: center;
+}
+
+span{
+  font-size: 0.9rem;
+}
+
+input{
+  font-size: 0.79rem;
+}
+
+table > tbody > tr > td:first-child{
+  text-align: center;
+}
+
+.red-font{
+  color: red;
+}
+
+.btn-div{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.j1{
+  width: 100px;
+}
