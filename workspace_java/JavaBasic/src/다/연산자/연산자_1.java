@@ -18,7 +18,7 @@ public class 연산자_1 {
         System.out.println(5 >= 3);
 
         // 논리 연산자(맞다(참), 틀리다(거짓))
-        // && 그리고, || 그러나
+        // && 그리고, || 이거나
         int x = 7;
         boolean r1 = x > 5 && x <=10;
 
