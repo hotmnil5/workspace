@@ -1,9 +1,8 @@
 package Second_If_문제;
 
-import java.time.temporal.Temporal;
 import java.util.Scanner;
 
-public class Test2_3 {
+public class Test_3 {
     public static void main(String[] args) {
         int num1;
         int num2;

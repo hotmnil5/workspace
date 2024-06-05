@@ -2,7 +2,7 @@ package Second_If_문제;
 
 import java.util.Scanner;
 
-public class Test2_2 {
+public class Test_2 {
     public static void main(String[] args) {
         int num1;
         int num2;
