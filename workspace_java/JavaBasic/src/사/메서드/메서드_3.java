@@ -1,7 +1,5 @@
 package 사.메서드;
 
-// 매개변수(parameter)  : 메서드 정의 부분 소괄호 안에서 정의된 변수
-
 import javax.naming.Name;
 
 public class 메서드_3 {

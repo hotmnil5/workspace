@@ -2,7 +2,7 @@ package 바.배열;
 
 import java.util.Arrays;
 
-public class Test_2_8 {
+public class Test_2_8_lotto {
     public static void main(String[] args) {
         int[] lotto = new int[6];
 
