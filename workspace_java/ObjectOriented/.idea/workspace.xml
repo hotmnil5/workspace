@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f6f22b3-6f7a-4c74-9526-092b6c3d2f24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaBasic/src/바/배열/Lotto_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaBasic/src/바/배열/Test_2_8_lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaBasic/src/바/배열/Test_2_8_lotto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/book/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/Div.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/MemberServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/Mul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/mem/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/rectangle/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_basic/rectangle/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examTest/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examTest/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class_basic/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class_basic/monitor/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class_basic/MonitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class_basic/monitor/MonitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class_basic/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class_basic/monitor/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class_basic/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class_basic/monitor/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class_basic/man/ManTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/class_basic/man/ManTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +41,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hXcSDgP9dt9V5mNVvi876BXQ5o" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,9 +51,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BookTest.executor": "Run",
+    "Application.MemberServiceExample.executor": "Run",
     "Application.MonitorTest.executor": "Run",
+    "Application.RectangleTest.executor": "Run",
     "Application.StudentTest.executor": "Run",
+    "Application.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/01-STUDY/dev/workspace/workspace_java/JavaBasic"

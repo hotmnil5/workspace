@@ -1,6 +1,5 @@
 package class_basic.man;
 
-import class_basic.car.Phone;
 
 public class ManTest {
     public static void main(String[] args) {
