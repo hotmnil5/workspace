@@ -1,7 +1,4 @@
-package examTest;
-
-import javax.swing.*;
-import java.sql.SQLOutput;
+package class_basic.examTest;
 
 public class Student {
     private String name;
@@ -38,7 +35,7 @@ public class Student {
     // 모든 맴버변수의 값을 출력하는 메서드
     public void print(){
         System.out.println("이름 : " + name);
-        System.out.println("이름 : " + age);
-        System.out.println("이름 : " + score);
+        System.out.println("나이 : " + age);
+        System.out.println("점수 : " + score);
     }
 }
