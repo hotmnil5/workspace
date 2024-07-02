@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>stu_list</title>
+</head>
+<body>
+    <div>
+      <table>
+        <tr>
+          <td name="num">학번</td>
+          <td name="name">학생명</td>
+          <td name="korScore">국어점수</td>
+          <td name="engScore">영어점수</td>
+          <td name="sumScore">총점</td>
+        </tr>
+        <!-- <tr>
+          <td name="num">1</td>
+          <td name="name">홍길동</td>
+          <td name="korScore">80</td>
+          <td name="engScore">90</td>
+          <td name="sumScore">170</td>
+        </tr>
+        <tr>
+          <td name="num">2</td>
+          <td name="name">이길동</td>
+          <td name="korScore">70</td>
+          <td name="engScore">80</td>
+          <td name="sumScore">150</td>
+        </tr>
+        <tr>
+          <td name="num">3</td>
+          <td name="name">김길동</td>
+          <td name="korScore">60</td>
+          <td name="engScore">70</td>
+          <td name="sumScore">130</td>
+        </tr>
+        <tr>
+          <td name="num">4</td>
+          <td name="name">박길동</td>
+          <td name="korScore">75</td>
+          <td name="engScore">85</td>
+          <td name="sumScore">160</td>
+        </tr>
+        <tr>
+          <td name="num">5</td>
+          <td name="name">장길동</td>
+          <td name="korScore">50</td>
+          <td name="engScore">60</td>
+          <td name="sumScore">110</td>
+        </tr> -->
+        <!-- 등록된 학생이 없으면 -->
+        <th:block th:if="${#lists.isEmpty(stuList)}">
+          <tr>
+            <td colspan="5">등록된 학생이 없습니다.</td>
+          </tr>
+        </th:block>
+        <!-- 등록된 학생이 있으면 -->
+        <th:block th:unless="${#lists.isEmpty(stuList)}">
+          <!--/* 등록된 학생수만큼 반복해서 행을 생성 */-->
+          <th:block th:each="student : ${stuList}">
+            <tr>
+              <td>[[${student.num}]]</td>
+              <td>
+                <a th:href="@{/student_detail(num=${student.num})}"> [[${student.name}]]></a>
+              </td>
+              <td>[[${student.korScore}]]</td>
+              <td>[[${student.engScore}]]</td>
+              <td>[[${student.korScore + student.engScore}]]</td>
+            </tr>
+          </th:block>
+        </th:block>
+      </table>
+    </div>
+    <input type="button" value="학생등록" onclick="goRegStudent()">
+  <script>
+    // 학생등록 버튼 클릭 시 학생등록 페이지로 이동하는 함수
+    function goRegStudent() {
+      location.href = '/reg_student';
+    }
+  </script>
+</body>
+</html>

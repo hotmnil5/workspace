@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <form action="/updateStudent" method="post">
+      <table border="1">
+        <tr>
+          <input type="hidden" name="stuNum" th:value="${student.stuNum}">
+          <td>학번</td>
+          <td>[[${student.stuNum}]]</td>
+          <td>이름</td>
+          <td><input type="text" th:value="${student.stuName}" name="stuName"></td>
+        </tr>
+        <tr>      
+          <td>국어점수</td>
+          <td><input type="number" th:value="${student.korScore}" name="korScore"></td>
+          <td>영어점수</td>
+          <td><input type="number" th:value="${student.engScore}" name="engScore"></td>
+        </tr>
+        <tr>
+          <td>자기소개</td>
+          <td><textarea name="intro">[[${student.intro}]]</textarea></td>
+        </tr>
+      </table>
+      <input type="submit" value="정보수정">
+    </form>
+    <button type="button" onclick="goBack()">뒤로가기</button>
+
+    <script>
+      // 뒤로가기
+      function goBack(){
+        history.back(-1);
+      }
+    </script>
+</body>
+</html>

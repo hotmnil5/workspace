@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>delivery</title>
+</head>
+<body>
+  <h1>배달 정보</h1>
+  <form action="/info" method="post">
+    <input type="hidden" name="ck" th:value="${orderVO.ck}">
+    <input type="hidden" name="number" th:value="${orderVO.number}">
+    <input type="hidden" name="pls" th:value="${orderVO.pls}">
+
+      <th:block th:each = " option : ${orderVO.option}">
+        <input type="hidden" name="option" th:value="${option}">
+      </th:block>
+
+    주문자 <br>
+    <input type="text" name="name"> <br>
+    연락처 <br>
+    <input type="text" name="tel" placeholder="010-0000-0000 형태로 입력"><br>
+    배달 주소 <br>
+    <input type="text" name="add"> <br>
+    <input type="submit" value="주문">
+  </form>
+</body>
+</html>

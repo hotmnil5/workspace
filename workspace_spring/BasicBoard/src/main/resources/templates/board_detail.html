@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <td>글번호</td>
+      <td>[[${board.boardNum}]]</td>
+      <td>조회수</td>
+      <td>[[${board.readCnt}]]</td>
+    </tr>
+    <tr>
+      <td>작성일</td>
+      <td>[[${board.createDate}]]</td>
+      <td>작성자</td>
+      <td>[[${board.writer}]]</td>
+    </tr>
+    <tr>
+      <td>제목</td>
+      <td colspan="3">[[${board.title}]]</td>
+    </tr>
+    <tr>
+      <td>내용</td>
+      <td colspan="3">[[${board.content}]]</td>
+    </tr>
+  </table>
+  <button type="button" onclick="location.href='/'">목록가기</button>
+  <button type="button" th:onclick="goUpdate([[${board.boardNum}]])">수정</button>
+  <button type="button" th:onclick="goDelete([[${board.boardNum}]])">삭제</button>
+
+  <script>
+    function goUpdate(){
+      location.href = `/updateForm?stuNum=${stuNum}`;
+    }
+    function goDelete(){
+      location.href `/board_delete?stuNum=${stuNum}`;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5208e2d2-e238-4b10-9de5-8dc1004130f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../workspace_java/.idea/workspace_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/BeforeSpring/BeforeSpring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/BeforeSpring/src/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/BeforeSpring/src/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DBTest/src/main/java/com/green/DBTest/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DBTest/src/main/java/com/green/DBTest/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DBTest/src/main/java/com/green/DBTest/service/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DB_Score/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DB_Score/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/ATagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/DataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/JoinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/OderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/ScoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/DeliveryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/JoinVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/LoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/ScoreVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/SurveyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/src/javaExample/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/src/javaExample/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/Example/src/javaExample/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/vo/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/vo/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace_sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace_java/ObjectOriented/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace_java/ObjectOriented/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace_spring/DataPractice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace_spring/DataPractice/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2iOkHPV1h6NvmJyI7R75C7Dn5oU" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/01-STUDY/dev/workspace/workspace_spring/DB_Score"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5208e2d2-e238-4b10-9de5-8dc1004130f7" name="Changes" comment="" />
+      <created>1719368922988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719368922988</updated>
+    </task>
+    <servers />
+  </component>
+</project>

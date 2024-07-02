@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ca191df-d7c7-472d-a1b4-d0de8613fbf8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../workspace_java/.idea/workspace_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeforeSpring/BeforeSpring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeforeSpring/src/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeforeSpring/src/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBTest/src/main/java/com/green/DBTest/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBTest/src/main/java/com/green/DBTest/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DBTest/src/main/java/com/green/DBTest/service/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DB_Score/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DB_Score/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/controller/ATagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/controller/DataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/controller/JoinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/controller/OderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/controller/ScoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/vo/DeliveryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/vo/JoinVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/vo/LoginVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/vo/OrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/vo/ScoreVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataPractice/src/main/java/com/green/DataPractice/vo/SurveyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaExample/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaExample/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaExample/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPractice/src/main/java/com/green/ListPractice/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPractice/src/main/java/com/green/ListPractice/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPractice/src/main/java/com/green/ListPractice/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPractice/src/main/java/com/green/ListPractice/vo/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ListPractice/src/main/java/com/green/ListPractice/vo/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_sql/.idea/workspace_sql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_java/ObjectOriented/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_java/ObjectOriented/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataPractice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DataPractice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataPractice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DataPractice/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2iV0zSZicXD9NMZeFucnUmRnqn7" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Example1.executor": "Run",
+    "Application.Example2.executor": "Run",
+    "Application.Test3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/01-STUDY/dev/workspace/workspace_sql",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaExample.Test3" />
+      <module name="Example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ca191df-d7c7-472d-a1b4-d0de8613fbf8" name="Changes" comment="" />
+      <created>1719560700266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719560700266</updated>
+    </task>
+    <servers />
+  </component>
+</project>
