@@ -24,7 +24,7 @@
       </tr>
       <tr>
         <td>2</td>
-        <td>김자바</td>
+        <td id="name">김자바</td>
         <td>30</td>
       </tr>
     </tbody>
@@ -40,7 +40,19 @@
 
     // 선택한 태그에서 자식 태그 찾아가기
     const tds = firstRow.children;
-    tds.forEach
+    for(let i = 0; i < tds.length; i++){
+      console.log(tds[i]);
+    }
+
+    const nameTd = document.querySelector('#name');
+
+    // 이전 형제태그 찾기
+    const previous = nameTd.previousElementSibling;
+    console.log(previous);
+
+    // 다음 형제태그 찾기
+    console.log(nameTd.nextElementSibling);
+    nameTd.nextElementSibling;
   </script>
 
 </body>
