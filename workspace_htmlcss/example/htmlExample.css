@@ -1,0 +1,70 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header > ul{
+  margin-left: 600px;
+  display: flex;
+  width: 500px;
+  padding: 15px 0px;
+  justify-content: space-around;
+}
+.header > ul a{
+  text-decoration: none;
+  color: black;
+  font-weight: 650;
+}
+.header > input{
+  margin-right: 400px;
+  padding: 5px 40px;
+  border: 1px solid lightgray;
+}
+img{
+  display: block;
+}
+.banner{
+  position: relative;
+  height: 370px;
+}
+.banner > div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.banner > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.banner > div h1{
+  color: orange;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.banner > div span{
+  color: white;
+}
+.banner > div button{
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 5px 30px;
+  margin-top: 15px;
+}
+.content{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.content > h1{
+  font-weight: 400;
+}
+.ribbon{
+  position: absolute;
+  top: 62%;
+}
