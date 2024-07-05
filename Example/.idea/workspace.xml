@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,12 +44,12 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CalculateTest">
-    <configuration name="CalculateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaExample2.calculate.CalculateTest" />
+  <component name="RunManager" selected="Application.CalTest">
+    <configuration name="CalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaExample2.calculate.CalTest" />
       <module name="Example" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculateTest" />
+        <item itemvalue="Application.CalTest" />
         <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>

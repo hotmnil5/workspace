@@ -1,6 +1,6 @@
 package javaExample2.calculate;
 
-public class CalculateTest {
+public class CalTest {
     public static void main(String[] args) {
 
         Calculate calculate = new Calculate();
