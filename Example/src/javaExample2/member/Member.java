@@ -19,7 +19,12 @@ public class Member {
         System.out.println("비밀번호 : " + pw);
         System.out.println("나이 : " + age);
     }
-    public boolean isLogin(String id, String pw){
-        return (true);
+    public static boolean isLogin(String id, String pw){
+        if (id == "java" && pw == "abcd1234"){
+            return true;
+        }
+        else if (id == "java" && pw == "abcd"){
+        }
+        return false;
     }
 }

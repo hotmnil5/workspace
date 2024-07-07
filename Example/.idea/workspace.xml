@@ -32,9 +32,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CalTest.executor": "Run",
     "Application.CalculateTest.executor": "Run",
     "Application.Example1.executor": "Run",
     "Application.Example2.executor": "Run",
+    "Application.MemberTest.executor": "Run",
     "Application.Test3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
