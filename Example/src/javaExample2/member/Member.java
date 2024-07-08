@@ -8,7 +8,7 @@ public class Member {
 
     public void setInfo(String name, String id, String pw, int age){
         this.name = name;
-        this. id = id;
+        this.id = id;
         this.pw = pw;
         this.age = age;
 
@@ -19,12 +19,12 @@ public class Member {
         System.out.println("비밀번호 : " + pw);
         System.out.println("나이 : " + age);
     }
-    public static boolean isLogin(String id, String pw){
-        if (id == "java" && pw == "abcd1234"){
-            return true;
-        }
-        else if (id == "java" && pw == "abcd"){
-        }
-        return false;
+    public boolean isLogin(String id, String pw){
+       if(this.id.equals(id) && this.pw.equals(pw) ){
+           return true;
+       }
+       else{
+           return false;
+       }
     }
 }

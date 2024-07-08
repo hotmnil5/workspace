@@ -1,0 +1,27 @@
+.App {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.box{
+  background-color: pink;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+button{
+  width: 80px;
+  margin: 0 10px;
+  background-color: palevioletred;
+  border: none;
+  border-radius: 10px;
+  padding: 2px;
+  margin-bottom: 6px;
+}
+span.item{
+  width: 200px;
+  display: inline-block;
+}
+.item-div{
+  margin-bottom: 6px;
+}

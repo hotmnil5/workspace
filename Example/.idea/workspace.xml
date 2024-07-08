@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ca191df-d7c7-472d-a1b4-d0de8613fbf8" name="Changes" comment="" />
+    <list default="true" id="9ca191df-d7c7-472d-a1b4-d0de8613fbf8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaExample2/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaExample2/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaExample2/member/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaExample2/member/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace_htmlcss/example/htmlExample.css" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace_htmlcss/example/htmlExample.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace_htmlcss/example/htmlExample.html" beforeDir="false" afterPath="$PROJECT_DIR$/../workspace_htmlcss/example/htmlExample.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/workspace/workspace_java/ObjectOriented",
+    "last_opened_file_path": "D:/01-STUDY/dev/workspace/workspace_java/JavaBasic",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",

@@ -68,3 +68,82 @@ img{
   position: absolute;
   top: 62%;
 }
+.icon i{
+  color: orange;
+  font-size: 18px;
+  border: 13px solid orange;
+  padding: 17px;
+  border-radius: 50%;
+}
+.order > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 25%;
+}
+.order > h6{
+  position: absolute;
+  top: 80%;
+  left: 24.4%;
+}
+.order > li{
+  position: absolute;
+  top: 83%;
+  left: 25%;
+}
+.promotions > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 39%;
+}
+.promotions > h6{
+  position: absolute;
+  top: 80%;
+  left: 39%;
+}
+.promotions > li{
+  position: absolute;
+  top: 83%;
+  left: 39%;
+}
+.serve > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 56%;
+}
+.serve > h6{
+  position: absolute;
+  top: 80%;
+  left: 55.4%;
+}
+.serve > li{
+  position: absolute;
+  top: 83%;
+  left: 56%;
+}
+.satisfaction > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 70%;
+}
+.satisfaction > h6{
+  position: absolute;
+  top: 80%;
+  left: 69.9%;
+}
+.satisfaction > li{
+  position: absolute;
+  top: 83%;
+  left: 70%;
+}
+.post{
+  display: flex;
+  height: 200px;
+}
+.post > div{
+  width: 350px;
+}
+.post img{
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
