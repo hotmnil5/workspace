@@ -1,0 +1,209 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.header > ul{
+  margin-left: 600px;
+  display: flex;
+  width: 500px;
+  padding: 15px 0px;
+  justify-content: space-around;
+}
+.header > ul a{
+  text-decoration: none;
+  color: black;
+  font-weight: 650;
+}
+.header > input{
+  margin-right: 400px;
+  padding: 5px 40px;
+  border: 1px solid lightgray;
+}
+img{
+  display: block;
+}
+.banner{
+  position: relative;
+  height: 370px;
+}
+.banner > div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.banner > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.banner > div h1{
+  color: orange;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.banner > div span{
+  color: white;
+}
+.banner > div button{
+  color: white;
+  background-color: orange;
+  border: none;
+  padding: 5px 30px;
+  margin-top: 15px;
+}
+.content{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.content > h1{
+  font-weight: 400;
+}
+.ribbon{
+  position: absolute;
+  top: 62%;
+}
+.footer{
+  margin-top: 380px;
+  display: flex;
+  justify-content: center;
+}
+.footer > h1{
+  font-weight: 400;
+}
+.ribbon2{
+  position: absolute;
+  top: 105%;
+}
+.icon i{
+  color: orange;
+  font-size: 18px;
+  border: 13px solid orange;
+  padding: 17px;
+  border-radius: 50%;
+}
+.order > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 25%;
+}
+.order > h6{
+  position: absolute;
+  top: 80%;
+  left: 24.4%;
+}
+.order > li{
+  position: absolute;
+  top: 83%;
+  left: 20%;
+  text-align: center;
+}
+.promotions > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 39%;
+}
+.promotions > h6{
+  position: absolute;
+  top: 80%;
+  left: 39%;
+}
+.promotions > li{
+  position: absolute;
+  top: 83%;
+  left: 35%;
+  text-align: center;
+}
+.serve > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 56%;
+}
+.serve > h6{
+  position: absolute;
+  top: 80%;
+  left: 55.4%;
+}
+.serve > li{
+  position: absolute;
+  top: 83%;
+  left: 51%;
+  text-align: center;
+}
+.satisfaction > :first-child{
+  position: absolute;
+  top: 70%;
+  left: 70%;
+}
+.satisfaction > h6{
+  position: absolute;
+  top: 80%;
+  left: 69.9%;
+}
+.satisfaction > li{
+  position: absolute;
+  top: 83%;
+  left: 66.5%;
+  text-align: center;
+}
+.post{
+  display: flex;
+  height: 200px;
+}
+.post > div{
+  width: 350px;
+}
+.post img{
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.sandwich{
+  position: absolute;
+  top: 115%;
+  left: 21%;
+}
+.taste{
+  position: absolute;
+  top: 115%;
+  left: 41.5%;
+}
+.pizza{
+  position: absolute;
+  top: 115%;
+  left: 61.5%;
+}
+.header > i{
+  position: absolute;
+  top: 4.3%;
+  left: 78%;
+  color: orange;
+}
+.menu{
+  position: absolute;
+  top: 63%;
+  left: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 95%;
+  height: 37%;
+}
+.food{
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 15px;
+}
+.post span{
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  font-size: 13px;
+  color: orange;
+}

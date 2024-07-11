@@ -1,0 +1,41 @@
+table, th, td{
+  border: 1.5px solid rgb(218, 229, 243);
+  border-collapse: collapse;
+  width: 1000px;
+  font-size: 12px;
+}
+.test{
+  vertical-align: top;
+}
+.s1{
+  color: red;
+}
+td{
+  padding: 6px;
+}
+table > tbody > tr > td:first-child{
+  background-color: rgb(238, 245, 247);
+}
+.u1{
+  width: 60px;
+}
+.c1{
+  width: 60px;
+}
+.j1{
+  width: 300px;
+}
+.bi1{
+  width: 90px;
+}
+.bi2{
+  width: 50px;
+}
+.s2{
+  font-weight: bold;
+}
+body{
+  position: absolute;
+  left: 25%;
+  top: 20px;
+}

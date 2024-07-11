@@ -5,42 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f6f22b3-6f7a-4c74-9526-092b6c3d2f24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace_java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BasicBoard/src/main/java/com/green/BasicBoard/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BasicBoard/src/main/java/com/green/BasicBoard/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BasicBoard/src/main/java/com/green/BasicBoard/service/BoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BasicBoard/src/main/java/com/green/BasicBoard/vo/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BasicBoard/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BasicBoard/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BasicBoard/src/main/resources/mapper/board-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BeforeSpring/BeforeSpring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BeforeSpring/src/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/BeforeSpring/src/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DBTest/src/main/java/com/green/DBTest/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DBTest/src/main/java/com/green/DBTest/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DBTest/src/main/java/com/green/DBTest/service/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DB_Score/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DB_Score/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/ATagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/DataController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/JoinController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/OderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/controller/ScoreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/DeliveryVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/JoinVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/LoginVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/OrderVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/ScoreVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/java/com/green/DataPractice/vo/SurveyVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/vo/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_spring/ListPractice/src/main/java/com/green/ListPractice/vo/StudentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../workspace_sql/.idea/workspace_sql.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest/src/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest/src/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest/src/test/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest/src/test/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest/src/test/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/CalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/MathUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/MathUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTest2/src/test/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_spring/AxiosTest/src/main/java/com/green/AxiosTest/AxiosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../workspace_spring/AxiosTest/src/main/java/com/green/AxiosTest/ItemVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/Example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/src/javaExample/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/src/javaExample/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/src/javaExample/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/src/javaExample2/calculate/CalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/src/javaExample2/calculate/Calculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/src/javaExample2/member/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example/src/javaExample2/member/MemberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/blogpost1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/blogpost2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/blogpost3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/htmlExample.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/htmlExample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/htmlExam회원가입.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/htmlExam회원가입.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../workspace_htmlcss/example/under-heading.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_spring/DataPractice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../workspace_spring/DataPractice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/3번문제결과예시.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../자바스크립트/test4.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +121,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/workspace/workspace_java/ObjectOriented"
+    "last_opened_file_path": "D:/01-STUDY/dev/workspace/workspace_java/ObjectOriented"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
