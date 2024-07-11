@@ -14,3 +14,5 @@ let data = [
     createDate : '2024-07-15'
   }
 ];
+
+export default data;
