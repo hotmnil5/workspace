@@ -39,7 +39,7 @@ public class Test5 {
                     if (baseball[i] == inputUser[j] && i == j){
                         strike++;
                     }
-                    else if (baseball[i] == inputUser[j] && i !=j){
+                    else if (baseball[i] == inputUser[j] && i != j){
                         ball++;
                     }
                 }
