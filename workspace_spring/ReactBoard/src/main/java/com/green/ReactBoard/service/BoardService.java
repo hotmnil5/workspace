@@ -11,4 +11,10 @@ public interface BoardService {
 
     // 게시글 상세 정보 조회
     BoardVO getBoardDetail(int boardNum);
+
+    // 게시글 등록
+    void regBoard(BoardVO boardVO);
+
+    // 게시글 삭제
+    void postDelete(int boardNum);
 }

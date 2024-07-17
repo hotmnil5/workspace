@@ -6,6 +6,7 @@ import { Axios } from 'axios';
 import AxiosTest from './AxiosTest';
 import BoardList from './BoardList';
 import BoardDetail from './BoardDetail';
+import BoardWrite from './BoardWrite';
 
 function App() {
 
@@ -38,6 +39,9 @@ function App() {
         {/* {상세 정보 페이지} */}
         <Route path='/detail/:boardNum' element={<BoardDetail />} />
         
+        {/* {글쓰기 페이지} */}
+        <Route path='/write' element={<BoardWrite />} />
+
       </Routes>
       
     </div>

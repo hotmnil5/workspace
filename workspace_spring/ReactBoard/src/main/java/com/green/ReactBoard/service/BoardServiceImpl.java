@@ -4,6 +4,7 @@ import com.green.ReactBoard.vo.BoardVO;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.DeleteMapping;
 
 import java.util.List;
 
@@ -24,6 +25,18 @@ public class BoardServiceImpl implements BoardService{
     @Override
     public BoardVO getBoardDetail(int boardNum) {
         return sqlSession.selectOne("boardMapper.getBoardDetail", boardNum);
+    }
+
+    // 게시글 등록
+    @Override
+    public void regBoard(BoardVO boardVO) {
+        sqlSession.insert("boardMapper.regBoard", boardVO);
+    }
+
+    // 게시글 삭제
+    @Override
+    public void postDelete(int boardNum) {
+        sqlSession.delete("boardMapper.postDelete", boardNum);
     }
 }
 

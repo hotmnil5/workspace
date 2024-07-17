@@ -52,7 +52,7 @@ const BoardList = () => {
           }
         </tbody>
       </table>
-      <button type="button" onClick={()=>{'/boardWrite'}}>글쓰기</button>
+      <button type="button" onClick={(e)=>{navigate('/Write')}}>글쓰기</button>
     </div>
   );
 }
