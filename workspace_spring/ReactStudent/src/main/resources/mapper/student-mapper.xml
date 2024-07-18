@@ -14,12 +14,51 @@
         <result column="STU_ADDR" property="stuAddr"/>
     </resultMap>
 
-    <select id="getStudent" resultMap="student">
+    <select id="getStuList" resultMap="student">
         SELECT STU_NUM
             , STU_NAME
             , KOR_SCORE
             , ENG_SCORE
             , MATH_SCORE
-        FROM REACT_STUDENT;
+        FROM react_student;
     </select>
+
+    <insert id="insertStudent">
+        INSERT INTO REACT_STUDENT (
+            STU_NAME
+            , STU_AGE
+            , STU_TEL
+            , STU_ADDR
+            , KOR_SCORE
+            , ENG_SCORE
+            , MATH_SCORE
+        ) VALUES (
+            #{stuName}
+            , #{stuAge}
+            , #{stuTel}
+            , #{stuAddr}
+            , 0
+            , 0
+            , 0
+        )
+    </insert>
+
+    <insert id="stuDetail">
+        STU_NAME
+        , STU_AGE
+        , STU_TEL
+        , STU_ADDR
+        , KOR_SCORE
+        , ENG_SCORE
+        , MATH_SCORE
+        ) VALUES (
+        #{stuName}
+        , #{stuAge}
+        , #{stuTel}
+        , #{stuAddr}
+        , #{korScore}
+        , #{engScore}
+        , #{mathScore}
+        )
+    </insert>
 </mapper>
