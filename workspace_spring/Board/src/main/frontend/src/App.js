@@ -3,6 +3,7 @@ import './reset.css';
 import './App.css';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import BoardList from './pages/BoardList';
+import Detail from './pages/Detail';
 
 function App() {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           {/* 게시글 목록 페이지 */}
           <Route path='/' element={ <BoardList /> } />
-
+          <Route path='/detail' element={ <Detail /> } />
         </Routes>
       </div>
     </div>

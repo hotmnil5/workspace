@@ -1,7 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const BoardList = () => {
+  const navigate = useNavigate();
   // 조회된 게시글 목록을 저장할 변수
   const [boardList, setBoardList] = useState([]);
 
@@ -60,6 +62,7 @@ const BoardList = () => {
         </table>
       </div>
       <div className="btn-div">
+        <button type="button" className="btn" onClick={(e)=>{navigate('/detail')}}>글쓰기</button>
       </div>
     </div>
   )
