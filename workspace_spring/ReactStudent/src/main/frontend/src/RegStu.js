@@ -1,10 +1,11 @@
 import axios from "axios";
 import { useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const RegStu = () => {
-  // 쿼리 실행을 위해 전달해야 하는 데이터
   const navigate = useNavigate();
+
+  //쿼리 실행을 위해 전달해야 하는 데이터
   const [stuInfo, setStuInfo] = useState({
     stuName : '',
     stuAge : '',
@@ -20,32 +21,33 @@ const RegStu = () => {
   }
 
   function regStudent(){
-    // 이름 입력 확인
+    //이름 입력했는지 확인
     const nameInputTag = document.querySelector('input[name="stuName"]');
     if(nameInputTag.value == ''){
-      alert('이름은 필수 입력입니다.');
+      alert('이름을 필수입력입니다.');
       nameInputTag.focus();
-      return;
+      return ;
     }
+
     axios
     .post('/insertStudent', stuInfo)
-    .then((res)=>{
-      alert('학생을 등록하였습니다.')
-      navigate('/')
+    .then((res) => {
+      alert('학생을 등록했습니다.');
+      navigate('/');
     })
-    .catch((error)=>{
-      alert('error!');
+    .catch((error) => {
+      alert('오류');
       console.log(error);
     });
   }
 
-  return(
+  return (
     <div>
-      이름 <input name="stuName" onChange={(e)=>{changeStuInfo(e)}}/> <br />
-      나이 <input name="stuAge" onChange={(e)=>{changeStuInfo(e)}}/> <br />
-      연락처 <input name="stuTel" onChange={(e)=>{changeStuInfo(e)}}/> <br />
-      주소 <input name="stuAddr" onChange={(e)=>{changeStuInfo(e)}}/> <br />
-      <button type="button" onClick={(e)=>{regStudent()}}>학생 등록</button>
+      이름 <input name="stuName" onChange={(e) => {changeStuInfo(e)}} /> <br />
+      나이 <input name="stuAge" onChange={(e) => {changeStuInfo(e)}} /> <br />
+      연락처 <input name="stuTel" onChange={(e) => {changeStuInfo(e)}} /> <br />
+      주소 <input name="stuAddr" onChange={(e) => {changeStuInfo(e)}} /> <br />
+      <button type="button" onClick={(e) => {regStudent()}}>학생등록</button>
     </div>
   );
 }

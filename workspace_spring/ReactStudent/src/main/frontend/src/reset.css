@@ -3,11 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-	font-family: 'Ownglyph_UNZ-Rg';
-	src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/Ownglyph_UNZ-Rg.woff2') format('woff2');
+	font-family: 'Pretendard-Regular';
+	src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SBAggroB';
+	src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'GongGothicMedium';
+	src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 html, body, div, span, applet, object, iframe,
@@ -57,8 +72,7 @@ table {
 *{
   box-sizing: border-box;
 	/* font-family: "Noto Sans", sans-serif; */
-	font-family: 'Ownglyph_UNZ-Rg'; 
-	/* "Montserrat", sans-serif,  */
+	font-family: 'GongGothicMedium'; 
 }
 
 
