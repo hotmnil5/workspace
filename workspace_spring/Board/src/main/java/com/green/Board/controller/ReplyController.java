@@ -4,14 +4,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("/reply")
 @RestController
+@RequestMapping("/reply")
 public class ReplyController {
 
-    // 댓글 목록
+    //댓글 목록
     @GetMapping("/list")
     public String getReplyList(){
-        return "댓글목록 목록";
+        return "댓글 목록";
     }
+
 
 }

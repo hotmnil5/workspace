@@ -1,35 +1,37 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
-const BoardList = () => {
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
+import * as boardApi from '../apis/boardApi';
+import { useNavigate } from 'react-router-dom';
+
+const BoardList = ({loginInfo}) => {
   const navigate = useNavigate();
-  // 조회된 게시글 목록을 저장할 변수
+  //조회된 게시글 목록을 저장할 변수
   const [boardList, setBoardList] = useState([]);
 
-  // 게시글 목록 조회
-  useEffect(()=>{
-    axios.get('/board/list')
-    .then((res)=>{
+  //게시글 목록 조회
+  useEffect(() => {
+    boardApi.getBoardList()
+    .then((res) => {
       setBoardList(res.data);
     })
-    .catch((error)=>{
-    alert('게시글 목록 조회 오류')
+    .catch((error) => {
+      alert('게시글 목록 조회 오류!');
       console.log(error);
-    })
+    });
   }, []);
-  
-  return(
-    <div className="board-list-container">
-      <div className="search-div">
+
+  return (
+    <div className='board-list-container'>
+      <div className='search-div'>
         <select>
           <option>제목</option>
           <option>작성자</option>
         </select>
-        <input type="text" />
-        <button className="btn">검색</button>
+        <input type='text' />
+        <button className='btn'>검색</button>
       </div>
-      <div className="board-list-div">
+      <div className='board-list-div'>
         <table>
           <colgroup>
             <col width='10%'/>
@@ -47,7 +49,7 @@ const BoardList = () => {
           </thead>
           <tbody>
             {
-              boardList.map((board, i)=>{
+              boardList.map((board, i) => {
                 return (
                   <tr key={i}>
                     <td>{boardList.length - i}</td>
@@ -61,11 +63,18 @@ const BoardList = () => {
           </tbody>
         </table>
       </div>
-      <div className="btn-div">
-        <button type="button" className="btn" onClick={(e)=>{navigate('/detail')}}>글쓰기</button>
+      <div className='btn-div'>
+        {
+          loginInfo.memId != null ? 
+          <button className='btn' onClick={(e)=>{
+            navigate('/writeForm')
+          }}>글쓰기</button>
+          :
+          null
+        }
       </div>
     </div>
   )
 }
 
-export default BoardList;
+export default BoardList
