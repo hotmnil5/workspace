@@ -22,6 +22,33 @@
         ORDER BY CREATE_DATE DESC
     </select>
 
+    <insert id="insertBoard">
+        INSERT INTO BOARD (
+            TITLE
+            , CONTENT
+            , MEM_ID
+        ) VALUES (
+            #{title}
+            , #{content}
+            , #{memId}
+        )
+    </insert>
+
+    <select id="selectBoard" resultMap="board">
+        SELECT BOARD_NUM
+            , TITLE
+            , CONTENT
+            , MEM_ID
+            , CREATE_DATE
+        FROM board
+        WHERE BOARD_NUM = #{boardNum};
+    </select>
+
+    <delete id="deletePost">
+        DELETE FROM BOARD
+        WHERE BOARD_NUM = #{boardNum}
+    </delete>
+
 </mapper>
 
 

@@ -6,7 +6,9 @@ import BoardList from './pages/BoardList';
 import JoinForm from './pages/JoinForm';
 import LoginForm from './pages/LoginForm';
 import { useEffect, useState } from 'react';
-import WriteForm from './pages/WriteForm';
+import BoardWrite from './pages/BoardWrite';
+import BoardDetail from './pages/BoardDetail';
+
 
 function App() {
   const navigate = useNavigate();
@@ -39,7 +41,7 @@ function App() {
                 // 세션스토리지에 저장된 로그인 정보를 제거
                 window.sessionStorage.removeItem('loginInfo');
                 setLoginInfo({});
-                alert('logOut!')
+                alert('LogOut!')
                 navigate('/');
               }}>Logout</span>
             </div>
@@ -58,9 +60,11 @@ function App() {
           {/* 로그인 페이지 */}
           <Route path='/loginForm' element={ <LoginForm setLoginInfo={setLoginInfo}/> } />
 
-          {/* 글쓰기 페이지 */}
-          <Route path='/writeForm' element={ <WriteForm /> } />
+          {/* 게시글 작성 페이지 */}
+          <Route path='/writeForm' element= { <BoardWrite loginInfo={loginInfo}/> } />
 
+          {/* 게시글 상세 페이지 */}
+          <Route path='/detail/:boardNum' element= { <BoardDetail loginInfo={loginInfo}/>} />
         </Routes>
       </div>
     </div>

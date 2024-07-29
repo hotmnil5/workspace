@@ -4,13 +4,12 @@ import com.green.Board.service.BoardService;
 import com.green.Board.service.BoardServiceImpl;
 import com.green.Board.vo.BoardVO;
 import jakarta.annotation.Resource;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
+@Slf4j
 @RestController
 @RequestMapping("/board")
 public class BoardController {
@@ -23,16 +22,25 @@ public class BoardController {
         return boardService.getBoardList();
     }
 
-    //게시글 상세 조회
-    @GetMapping("/detail")
-    public String getDeyail(){
-        return "게시글 상세";
+    //게시글 등록
+    @PostMapping("/insert")
+    public void insertBoard(@RequestBody BoardVO boardVO){
+        log.info("BoardController : insertBoard() run");
+        log.info(boardVO.toString());
+        boardService.insertBoard(boardVO);
     }
 
+    //게시글 상세정보
+    @GetMapping("/detail/{boardNum}")
+    public BoardVO boardDetail(@PathVariable("boardNum")int boardNum){
+        return boardService.selectBoard(boardNum);
+    }
 
-
-
-
+    //게시글 삭제
+    @DeleteMapping("/delete/{boardNum}")
+    public void deletePost(@PathVariable("boardNum")int boardNum){
+        boardService.deletePost(boardNum);
+    }
 
 
 }

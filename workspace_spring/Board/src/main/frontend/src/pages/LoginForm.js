@@ -114,10 +114,10 @@ const LoginForm = ({setLoginInfo}) => {
   return (
     <div>
       <input type='text' placeholder='input ID' 
-              name='memId' onChange={(e) => changeLoginData(e)}/>
+      name='memId' onChange={(e) => changeLoginData(e)}/>
 
       <input type='password' placeholder='input PW' name='memPw' 
-              onChange={(e) => changeLoginData(e)}/>
+      onChange={(e) => changeLoginData(e)}/>
 
       <input type='button' className='btn' value='로그인' onClick={(e) => {login()}}/>
     </div>
