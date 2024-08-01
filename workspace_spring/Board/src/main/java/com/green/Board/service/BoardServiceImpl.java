@@ -2,6 +2,7 @@ package com.green.Board.service;
 
 import com.green.Board.vo.BoardVO;
 import com.green.Board.vo.ReplyVO;
+import com.green.Board.vo.SearchVO;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -16,8 +17,8 @@ public class BoardServiceImpl implements BoardService{
 
     //게시글 목록 조회
     @Override
-    public List<BoardVO> getBoardList() {
-        return sqlSession.selectList("boardMapper.getBoardList");
+    public List<BoardVO> getBoardList(SearchVO searchVO) {
+        return sqlSession.selectList("boardMapper.getBoardList", searchVO);
     }
 
     @Override
@@ -37,6 +38,11 @@ public class BoardServiceImpl implements BoardService{
         sqlSession.delete("replyMapper.deleteReply", boardNum);
         // 게시글 삭제
         sqlSession.delete("boardMapper.deletePost", boardNum);
+    }
+
+    @Override
+    public void updateBoard(BoardVO boardVO) {
+        sqlSession.update("boardMapper.updateBoard", boardVO);
     }
 
 }

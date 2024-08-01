@@ -9,9 +9,22 @@ const BoardList = ({loginInfo}) => {
   //조회된 게시글 목록을 저장할 변수
   const [boardList, setBoardList] = useState([]);
 
+  // 검색 조건을 저장할 변수
+  const [searchData, setSearchData] = useState({
+    searchType : 'TITLE',
+    searchValue : ''
+  });
+
+  function changeSearchDate(e){
+    setSearchData({
+      ...searchData,
+      [e.target.name] : e.target.value
+    });
+  }
+
   //게시글 목록 조회
   useEffect(() => {
-    boardApi.getBoardList()
+    boardApi.getBoardList(searchData)
     .then((res) => {
       setBoardList(res.data);
     })
@@ -21,15 +34,24 @@ const BoardList = ({loginInfo}) => {
     });
   }, []);
 
+  // 검색 버튼 클릭 시 실행 함수
+  function searchBoard(){
+    boardApi.getBoardList(searchData)
+    .then((res)=>{
+      setBoardList(res.data);
+    })
+    .catch((error)=>{console.log(error)});
+  }
+
   return (
     <div className='board-list-container'>
       <div className='search-div'>
-        <select>
-          <option>제목</option>
-          <option>작성자</option>
+        <select name='searchType' onChange={(e)=>{changeSearchDate(e)}}>
+          <option value={'TITLE'}>제목</option>
+          <option value={'MEM_ID'}>작성자</option>
         </select>
-        <input type='text' />
-        <button className='btn'>검색</button>
+        <input type='text' name='searchValue' onChange={(e)=>{changeSearchDate(e)}}/>
+        <button className='btn' onClick={(e)=>{searchBoard(e)}}>검색</button>
       </div>
       <div className='board-list-div'>
         <table>

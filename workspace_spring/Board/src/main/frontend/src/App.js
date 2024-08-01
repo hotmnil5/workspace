@@ -8,6 +8,7 @@ import LoginForm from './pages/LoginForm';
 import { useEffect, useState } from 'react';
 import BoardWrite from './pages/BoardWrite';
 import BoardDetail from './pages/BoardDetail';
+import UpdateForm from './pages/UpdateForm';
 
 
 function App() {
@@ -65,6 +66,9 @@ function App() {
 
           {/* 게시글 상세 페이지 */}
           <Route path='/detail/:boardNum' element= { <BoardDetail loginInfo={loginInfo}/>} />
+
+          {/* 게시글 수정 페이지 */}
+          <Route path='/updateForm/:boardNum' element={ <UpdateForm /> } />
         </Routes>
       </div>
     </div>

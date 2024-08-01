@@ -1,0 +1,35 @@
+.join-div{
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(255, 231, 231, 0.5);
+  box-shadow: 3px 3px 6px pink;
+}
+.join-table{
+  width: 100%;
+}
+.join-table td{
+  padding: 6px;
+}
+.join-table tr > td:nth-child(1){
+  text-align: right;
+}
+.inline-input{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.inline-input > input{
+  width: 70%;
+}
+.inline-input > button{
+  width: 25%;
+}
+.inline-input > select{
+  width: 40%;
+  gap: 5px;
+}
+.but{
+  width: 20%;
+}

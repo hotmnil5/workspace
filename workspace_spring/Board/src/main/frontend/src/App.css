@@ -63,7 +63,7 @@
   padding: 5px;
   outline: none;
 }
- .inp:focus{
+.inp:focus{
   outline: 1px solid #E59BE9;
   border: 1px solid #E59BE9;
 } 

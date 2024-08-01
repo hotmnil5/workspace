@@ -3,6 +3,7 @@ package com.green.Board.controller;
 import com.green.Board.service.BoardService;
 import com.green.Board.service.BoardServiceImpl;
 import com.green.Board.vo.BoardVO;
+import com.green.Board.vo.SearchVO;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -17,9 +18,9 @@ public class BoardController {
     private BoardService boardService;
 
     //게시글 목록 조회
-    @GetMapping("/list")
-    public List<BoardVO> getBoardList(){
-        return boardService.getBoardList();
+    @PostMapping("/list")
+    public List<BoardVO> getBoardList(@RequestBody SearchVO searchVO){
+        return boardService.getBoardList(searchVO);
     }
 
     //게시글 등록
@@ -42,5 +43,10 @@ public class BoardController {
         boardService.deletePost(boardNum);
     }
 
+    //게시글 수정
+    @PutMapping("/update")
+    public void updateBoard(@RequestBody BoardVO boardVO){
+        boardService.updateBoard(boardVO);
+    }
 
 }
