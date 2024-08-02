@@ -1,7 +1,7 @@
 .join-div{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
-  padding: 25px;
+  padding: 50px;
   border-radius: 10px;
   background-color: rgba(255, 231, 231, 0.5);
   box-shadow: 3px 3px 6px pink;
@@ -10,7 +10,8 @@
   width: 100%;
 }
 .join-table td{
-  padding: 6px;
+  padding: 10px;
+  font-size: 1.3rem;
 }
 .join-table tr > td:nth-child(1){
   text-align: right;
@@ -32,4 +33,7 @@
 }
 .but{
   width: 20%;
+}
+select{
+  font-size: 18px;
 }

@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className='banner'>
           <div>
-            <img className='banner-img' src='http://localhost:8080/images/book_banner.PNG' />
+            <img src='http://localhost:8080/images/book_banner.PNG' className='banner-img' />
           </div>
           <div className='title-div'>BOOK SHOP</div>
         </div>
