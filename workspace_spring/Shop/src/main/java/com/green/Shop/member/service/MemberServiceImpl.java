@@ -14,4 +14,19 @@ public class MemberServiceImpl implements MemberService{
     public void join(MemVO memVO) {
         sqlSession.insert("memberMapper.join", memVO);
     }
+
+    // 아이디 중복 확인
+    // 사용 가능 : true / 사용 불가 : false
+    @Override
+    public boolean isEnableId(String memId) {
+        // 사용 가능한 아이디면 selectedId : null
+        String selectedId = sqlSession.selectOne("memberMapper.isEnableId", memId);
+        return selectedId == null;
+    }
+
+    // 로그인
+    @Override
+    public MemVO login(MemVO memVO) {
+        return sqlSession.selectOne("memberMapper.login", memVO);
+    }
 }

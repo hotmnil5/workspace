@@ -181,3 +181,18 @@ input{
     transform : translateY(-50px);
   }
 }
+/* validation 디자인 */
+.feedback{
+  font-size: 0.95rem;
+  margin-top: 4px;
+  visibility: hidden;
+  /* display: none; */
+}
+.feedback.error{
+  color: rgb(255, 0, 98);
+  visibility: visible;
+}
+.feedback.good{
+  color: rgb(33, 158, 2);
+  visibility: visible;
+}
