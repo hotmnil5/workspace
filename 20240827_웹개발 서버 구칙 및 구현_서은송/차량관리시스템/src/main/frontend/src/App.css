@@ -1,0 +1,28 @@
+.container{
+  width: 100vw;
+}
+.page-div{
+  width: 100%;
+  color: white;
+  position: relative;
+}
+.heard-menu{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.heard-menu > li{
+  padding: 3px;
+  width: 150px;
+  text-align: center;
+  background-color: rgb(73, 175, 209);
+  border: 1px solid white;
+}
+.heard-menu > li:hover{
+  cursor: pointer;
+}
+.first-page{
+  text-align: center;
+  margin-top: 180px;
+  font-weight: 500;
+}

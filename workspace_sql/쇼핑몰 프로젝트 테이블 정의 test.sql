@@ -29,6 +29,11 @@ CREATE TABLE ITEM_CATEGORY_TEST (
 	, CATE_NAME VARCHAR(50) NOT NULL UNIQUE
 );
 
+-- 카테고리 데이터
+INSERT INTO item_category VALUES (1, '인터넷/IT');
+INSERT INTO item_category VALUES (2, '소설/에세이');
+INSERT INTO item_category VALUES (3, '자기계발');
+
 -- 3. 상품 정보 테이블
 -- ITEM_STATUS(상품 상태) : (FOR_SALE)판매 중, SOLD_OUT(품절)
 CREATE TABLE SHOP_ITEM_TEST (
@@ -40,3 +45,9 @@ CREATE TABLE SHOP_ITEM_TEST (
 	, ITEM_STATUS VARCHAR(10) DEFAULT 'FOR_SALE'
 	, CATE_CODE INT NOstudy_dbT NULL REFERENCES ITEM_CATEGORY_TEST (CATE_CODE)
 );
+
+SELECT * FROM shop_member;
+
+UPDATE shop_member
+SET MEM_ROLE = 'admin'
+WHERE MEM_ID = 'jeung';
