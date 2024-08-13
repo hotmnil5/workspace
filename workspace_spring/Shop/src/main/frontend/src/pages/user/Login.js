@@ -97,11 +97,11 @@ const Login = ({setLoginInfo, loginInfo}) => {
         navigate('/')
       }
       else if(loginInfo.memRole == 'ADMIN'){
-        navigate('/admin/regItem')
+        navigate('/admin/itemManage')
       }
     }
   }
- 
+
   return (
     <div className='login-page-div'>
       <div>

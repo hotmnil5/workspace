@@ -228,24 +228,30 @@ input, select, textarea{
   }
 }
 
-.user-menu-div{
+.menu-div{
+  margin-bottom: 20px;
+  margin-top: 10px;
   /* background-color: #C5DEC7; */
   color: gray;
   font-weight: bold;
   padding: 20px;
 }
 
-.user-menu-div > .menu-ul{
+.menu-div > .menu-ul{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
 
-.user-menu-div > .menu-ul > li{
+.menu-div > .menu-ul > li{
   width: 160px;
   /* border: 1px solid black; */
   text-align: center;
+}
+
+.menu-div > .menu-ul > li:hover{
+  cursor: pointer;
 }
 
 /* validation 디자인 */
@@ -265,9 +271,31 @@ input, select, textarea{
   visibility: visible;
 }
 
-
-
-
+/* 사이드바 디자인 */
+.side-menu-div{
+  display: flex;
+  margin-bottom: 50px;
+}
+.side-menu-ul{
+  box-shadow: 1px 1px 3px #eeeeee;
+  width: 250px;
+}
+.side-menu-ul > li{
+  padding: 20px 16px;
+  border-bottom: 2px solid #003675;
+  display: flex;
+  justify-content: space-between;
+}
+.bi-chevron-right{
+  color : #003675;
+  font-size: 0.8rem;
+}
+.bi-chevron-right:hover{
+  cursor: pointer;
+}
+.side-menu-ul > li > span:nth-child(1){
+  cursor: pointer;
+}
 
 
 

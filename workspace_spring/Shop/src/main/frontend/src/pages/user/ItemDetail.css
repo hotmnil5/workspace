@@ -1,0 +1,25 @@
+.itemDetail-container{
+  display: flex;
+  justify-content: center;
+}
+.itemDetail-img{
+  margin-right: 50px;
+}
+.itemDetail-content > p{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.itemDetail-content > button{
+  font-size: 13px;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 173, 0);
+  color: white;
+}
+.itemDetail-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
