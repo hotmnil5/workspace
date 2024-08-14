@@ -60,7 +60,7 @@ const RegItem = () => {
 
     itemForm.append('itemName', insertItemData.itemName);
     itemForm.append('itemPrice', insertItemData.itemPrice);
-    itemForm.append('itemIro', insertItemData.itemIntro);
+    itemForm.append('itemIntro', insertItemData.itemIntro);
     itemForm.append('cateCode', insertItemData.cateCode);
     itemForm.append('mainImg', mainImg);
     itemForm.append('subImg', subImg);

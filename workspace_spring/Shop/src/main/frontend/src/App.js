@@ -14,6 +14,7 @@ import SaleHistoryOfMonth from './pages/admin/SaleHistoryOfMonth';
 import SearchUser from './pages/admin/SearchUser';
 import RecordOfMonth from './pages/admin/RecordOfMonth';
 import ItemDetail from './pages/user/ItemDetail';
+import CarList from './pages/user/CarList';
 
 //새로고침과 재랜더링은 다르다!!!!!
 //새로고침하면 state 변수의 값이 전부 초기화 된다.
@@ -70,6 +71,7 @@ function App() {
             :
             <div className='login-info'>
               {loginInfo.memId}님 반갑습니다.
+              <span onClick={()=>{navigate('/carList')}}>장바구니</span>
               <span onClick={() => {
                 //세션에 저장된 로그인 정보 삭제
                 window.sessionStorage.removeItem('loginInfo');
@@ -108,7 +110,10 @@ function App() {
                                   loginInfo={loginInfo}/> }/>
 
             {/* 상품상세 페이지 */}
-            <Route path='itemDetail' element={ <ItemDetail /> }/>
+            <Route path='itemDetail/:itemCode' element={ <ItemDetail /> }/>
+
+            {/* 장바구니 페이지 */}
+            <Route path='carList' element={<CarList/>}/>
 
           </Route>
 
