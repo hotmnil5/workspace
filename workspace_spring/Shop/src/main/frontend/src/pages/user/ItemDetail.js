@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './ItemDetail.css';
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 const ItemDetail = () => {
 
   const {itemCode} = useParams();
@@ -19,6 +19,15 @@ const ItemDetail = () => {
 
   // 총 가격을 저장하는 state 변수
   const [totalPrice, setTotalPrice] = useState(0);
+
+  // 장바구니 담기 버튼 클릭 시 자바로 가져가는 데이터
+  const [insertCartData, setInsertCartData] = useState({
+    itemCode : itemCode,
+    cartCnt : 1,
+    memId : JSON.parse(window.sessionStorage.getItem('loginInfo')).memId
+  });
+
+  const navigate = useNavigate();
 
   // 상품 상세 정보 조회
   useEffect(()=>{
@@ -52,18 +61,40 @@ const ItemDetail = () => {
       alert('1인당 최소 구매 가능 수량은 1권입니다.')
       setItemCnt(1)
       setTotalPrice(itemDetail.itemPrice)
+
+      // 장바구니 등록 시 필요한 수량 데이터를 변경
+      setInsertCartData({...insertCartData, 'cartCnt':1});
     }
     else if(cnt > 10){
       alert('1인당 최대 구매 가능 수량은 10권입니다.')
       setItemCnt(1)
       setTotalPrice(itemDetail.itemPrice)
+
+      // 장바구니 등록 시 필요한 수량 데이터를 변경
+      setInsertCartData({...insertCartData, 'cartCnt':1});
     }
     else{
       setTotalPrice(itemDetail.itemPrice * Number(e.target.value))
       setItemCnt(e.target.value)
+
+      // 장바구니 등록 시 필요한 수량 데이터를 변경
+      setInsertCartData({...insertCartData, 'cartCnt':e.target.value});
     }
   }
 
+  // 장바구니 담기 버튼 클릭 시 실행하는 함수
+  function insertCart(){
+    axios.post('/api_cart/insert', insertCartData)
+    .then((res)=>{
+      const result = window.confirm('장바구니에 상품을 담았습니다. \n계속 쇼핑하겠습니까?')
+
+      // 취소를 선택하면 장바구니 목록 페이지로 이동
+      if(!result){
+        navigate('/carList')
+      }
+    })
+    .catch((error)=>{console.log(error)});
+  }
   return (
       <div className='item-detail-div'>
         <div className='item-info-div'>
@@ -80,7 +111,7 @@ const ItemDetail = () => {
             <p>총 가격 : {'￦' + totalPrice.toLocaleString() + '원'}</p>
             <div className='item-button-div'>
               <button type='button' className='btn btn-primary'>구매하기</button>
-              <button type='button' className='btn btn-primary'>장바구니에 담기</button>
+              <button type='button' className='btn btn-primary' onClick={(e)=>{insertCart()}}>장바구니에 담기</button>
             </div>
           </div>
         </div>

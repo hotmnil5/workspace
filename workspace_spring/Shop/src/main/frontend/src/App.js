@@ -19,6 +19,9 @@ import CarList from './pages/user/CarList';
 //새로고침과 재랜더링은 다르다!!!!!
 //새로고침하면 state 변수의 값이 전부 초기화 된다.
 //재랜더링하면 state 변수의 값은 보존된다.
+
+// state 변경함수는 모든 코드가 실행된 후 일괄적으로 한 번에 처리
+// state 변경함수는 비동기 방식이기 때문에 주의!!
 function App() {
   const navigate = useNavigate();
 

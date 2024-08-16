@@ -1,72 +1,73 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './CarList.css'
+import axios from 'axios';
+
 const CarList = () => {
+  // 조회한 장바구니 목록 데이터를 저장할 변수
+  const [cartList, setCartList] = useState([]);
+  // 장바구니 목록 조회
+  useEffect(()=>{
+    const loginInfo = JSON.parse(window.sessionStorage.getItem('loginInfo'));
+    
+      
+    axios.get(`/api_cart/getCartList/${loginInfo.memId}`)
+    .then((res)=>{
+      console.log(res.data);
+      setCartList(res.data);
+    })
+    .catch((error)=>{console.log(error)})
+  }, [])
+
   return (
-    <div className='container'>
-      <table className='carList-table'>
-        <thead>
-          <tr>
-            <td>No</td>
-            <td>
-              <input type='checkbox'/>
-            </td>
-            <td>상품정보</td>
-            <td>가격</td>
-            <td>수량</td>
-            <td>구매가격</td>
-            <td>구매일시</td>
-            <td></td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>3</td>
-            <td>
-              <input type='checkbox'/>
-            </td>
-            <td>상품3</td>
-            <td>10000</td>
-            <td>
-              <input type='number'/>
-            </td>
-            <td>20000</td>
-            <td>2024-08-10<br/>10:50</td>
-            <td><button type='button'className='btn btn-primary' >삭제</button></td>
-          </tr>
-          <tr>
-            <td>No</td>
-            <td>
-              <input type='checkbox'/>
-            </td>
-            <td>상품정보</td>
-            <td>가격</td>
-            <td>
-              <input type='number'/>
-            </td>
-            <td>구매가격</td>
-            <td>2024-08-10<br/>10:50</td>
-            <td><button type='button'className='btn btn-primary' >삭제</button></td>
-          </tr>
-          <tr>
-            <td>No</td>
-            <td>
-              <input type='checkbox'/>
-            </td>
-            <td>상품정보</td>
-            <td>가격</td>
-            <td>
-              <input type='number'/>
-            </td>
-            <td>구매가격</td>
-            <td>2024-08-10<br/>10:50</td>
-            <td><button type='button'className='btn btn-primary' >삭제</button></td>
-          </tr>
-        </tbody>
-      </table>
-      <div className='btn-div'>
-        <button className='btn btn-primary' >선택삭제</button>
-        <button className='btn btn-primary' >선택구매</button>
+    <div className='cart-list-div'>
+      <div className='cart-table-div'>
+        <table className='cart-list-table'>
+          <colgroup>
+            <col width='5%'/>
+            <col width='5%'/>
+            <col width='*'/>
+            <col width='10%'/>
+            <col width='10%'/>
+            <col width='12%'/>
+            <col width='20%'/>
+            <col width='10%'/>
+          </colgroup>
+          <thead>
+            <tr>
+              <td>No</td>
+              <td><input type='checkbox'/></td>
+              <td>상품정보</td>
+              <td>가격</td>
+              <td>수량</td>
+              <td>구매가격</td>
+              <td>구매일시</td>
+              <td></td>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              cartList.map((cartList, i)=>{
+                return(
+                  <tr>
+                    <td>{cartList.length - i}</td>
+                    <td><input type='checkbox'/></td>
+                    <td className='img-td'>
+                      <img src='{http://localhost:8080/upload/cart.itemVO.imgList[0].attchedilMan}'/>
+                      <span>{cartList.itemVO.itemName}</span>
+                    </td>
+                    <td>{'￦'+cart.itemVO.itemPrice.toLocaleString()}</td>
+                    <td><input type='number' className='form-control' defaultValue={cartList.cartCnt}/></td>
+                    <td>{'￦' + (cartList.itemVO.itemPrice * cart.cartCnt).toLocaleString()}</td>
+                    <td>{cartList.cartDate}</td>
+                    <td><button type='button' className='btn btn-primary'>삭 제</button></td>
+                  </tr>
+                );
+              })
+            }
+          </tbody>
+        </table>
       </div>
+      <div></div>
     </div>
   )
 }
