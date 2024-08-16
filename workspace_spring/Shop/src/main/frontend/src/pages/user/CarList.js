@@ -46,19 +46,19 @@ const CarList = () => {
           </thead>
           <tbody>
             {
-              cartList.map((cartList, i)=>{
+              cartList.map((cart, i)=>{
                 return(
-                  <tr>
+                  <tr key={i}>
                     <td>{cartList.length - i}</td>
                     <td><input type='checkbox'/></td>
                     <td className='img-td'>
-                      <img src='{http://localhost:8080/upload/cart.itemVO.imgList[0].attchedilMan}'/>
-                      <span>{cartList.itemVO.itemName}</span>
+                      <img src={`http://localhost:8080/upload/cart.itemVO.imgList[0].attchedFileName`}/>
+                      <span>{cart.itemVO.itemName}</span>
                     </td>
                     <td>{'￦'+cart.itemVO.itemPrice.toLocaleString()}</td>
-                    <td><input type='number' className='form-control' defaultValue={cartList.cartCnt}/></td>
-                    <td>{'￦' + (cartList.itemVO.itemPrice * cart.cartCnt).toLocaleString()}</td>
-                    <td>{cartList.cartDate}</td>
+                    <td><input type='number' className='form-control' defaultValue={cart.cartCnt}/></td>
+                    <td>{'￦' + (cart.itemVO.itemPrice * cart.cartCnt).toLocaleString()}</td>
+                    <td>{cart.cartDate}</td>
                     <td><button type='button' className='btn btn-primary'>삭 제</button></td>
                   </tr>
                 );

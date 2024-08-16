@@ -2,7 +2,13 @@ import React from 'react'
 
 const SaleTable = () => {
   return (
-    <div>SaleTable</div>
+    <div>
+      <table>
+        <thead>
+          
+        </thead>
+      </table>
+    </div>
   )
 }
 
